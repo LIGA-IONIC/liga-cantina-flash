@@ -1,23 +1,13 @@
-# Projeto 01 · Cantina Flash
+﻿# Cantina Flash
 
-## Contexto
-A fila da cantina tá um caos. Seu app anota o pedido sem furar a fila.
+## O que fazer
+1. Abra **`PRINTS.html`** neste repo (é o gabarito visual).
+2. Monte o app **parecido com o print** (não precisa ser idêntico).
+3. A regra do tema está **nas telas do print** — observe totais, badges e mensagens.
+4. Cada semana o professor libera issues novas. Faça só as da semana aberta.
 
-## Itens sugeridos
-| Item | Preço | Detalhe |
-|------|-------|---------|
-| X-IF | R$ 16 | lanche |
-| Suco natural | R$ 7 | bebida sem álcool |
-| Salada bowl | R$ 14 | saudável |
-| Brownie | R$ 8 | estoque 0 (esgotado) |
-| Coxinha | R$ 6 | estoque baixo |
+## Stack
+Node **22.23.1** · Ionic **9** standalone · Firebase de vocês
 
-## Regra do tema (obrigatória)
-**Taxa da cantina R$ 2,00** + **só fecha pedido com subtotal >= R$ 15,00**.
-Mensagem na tela se tentar fechar abaixo do mínimo.
-
-## Firestore
-Coleção sugerida: `pedidos_cantina` (aluno, itens, total, data).
-
-## Visual sugerido
-Cor: laranja / creme
+## Entrega
+Link do seu **fork** + demo: login → lista → regra do print → Firestore
