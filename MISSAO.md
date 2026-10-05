@@ -1,6 +1,6 @@
-# Missão 01 · Cantina Flash
+# Projeto 01 · Cantina Flash
 
-## Lore
+## Contexto
 A fila da cantina tá um caos. Seu app anota o pedido sem furar a fila.
 
 ## Itens sugeridos
@@ -12,12 +12,12 @@ A fila da cantina tá um caos. Seu app anota o pedido sem furar a fila.
 | Brownie | R$ 8 | estoque 0 (esgotado) |
 | Coxinha | R$ 6 | estoque baixo |
 
-## Boss (obrigatório)
+## Regra do tema (obrigatória)
 **Taxa da cantina R$ 2,00** + **só fecha pedido com subtotal >= R$ 15,00**.
 Mensagem na tela se tentar fechar abaixo do mínimo.
 
-## Cofre (Firestore)
+## Firestore
 Coleção sugerida: `pedidos_cantina` (aluno, itens, total, data).
 
-## Rank sugerido da guilda
+## Visual sugerido
 Cor: laranja / creme
